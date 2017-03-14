@@ -1,0 +1,5 @@
+This directory contains code for an improved subcolumn generator for COSP,
+using the Raisanen et al. (2004) cloud generator, with variability treatment
+applied to both clouds and precipitation. Also included are the SCOPS and
+PREC_SCOPS codes from COSP. SCOPS is included for comparison, to have a single
+code here that can do both.
