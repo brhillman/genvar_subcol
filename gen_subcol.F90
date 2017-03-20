@@ -179,7 +179,7 @@ subroutine gen_subcol(npts, ncol, nlev, cf, pf, &
     end if
 
     ! generate subcolumn precip condensate
-    if (all(qpi_var <= 0) .and. all(qpi_var <= 0)) then
+    if (all(qpc_var <= 0) .and. all(qpi_var <= 0)) then
         ! homogeneous condensate
         if (verbose > 0) print *, 'Generating homogeneous precipitation &
                                   &condensate'
